@@ -1,0 +1,84 @@
+ /* General Styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+header, footer {
+    background: #3B3A39;
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+}
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-title {
+    font-size: 1.8rem;
+    color: #D9534F;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Gallery Section */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    background: #F8F8F8;
+    padding: 1.5rem;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+form button {
+    background: #D9534F;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+form button:hover {
+    background: #C9302C;
+}
+
+/* Footer */
+footer p {
+    font-size: 0.9rem;
+}
